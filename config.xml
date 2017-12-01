@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" id="com.example.helloworld" version="1.0.0">
-  <name>Minimum Template</name>
+  <name>Practice1 Splitter</name>
   <description>Made with Monaca (http://monaca.mobi)</description>
   <author/>
   <content src="index.html"/>
-  <access origin="*"/>
   <allow-navigation href="*"/>
   <allow-intent href="itms:*"/>
   <allow-intent href="itms-apps:*"/>
-  <preference name="DisallowOverscroll" value="true"/>
-  <preference name="Orientation" value="default"/>
   <preference name="loglevel" value="DEBUG"/>
   <preference name="AndroidLaunchMode" value="singleTop"/>
   <preference name="ErrorUrl" value=""/>
-  <preference name="Fullscreen" value="false"/>
-  <preference name="KeepRunning" value="true"/>
   <preference name="SplashScreen" value="screen"/>
-  <preference name="SplashScreenDelay" value="1000"/>
   <preference name="AllowInlineMediaPlayback" value="false"/>
   <preference name="AutoHideSplashScreen" value="true"/>
   <preference name="BackupWebStorage" value="cloud"/>
@@ -36,7 +30,6 @@
     <param name="ios-package" value="CDVLocalStorage"/>
   </feature>
   <preference name="UIWebViewDecelerationSpeed" value="normal"/>
-  <preference name="monaca:AndroidIsPackageNameSeparate" value="false"/>
   <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1,2"/>
   <platform name="ios">
     <icon src="/res/ios/icon/icon.png" width="57" height="57"/>
@@ -98,4 +91,12 @@
   </platform>
   <preference name="WindowsStorePublisherName" value="My Name"/>
   <preference name="WindowsStoreIdentityName" value="d0102d2d-c46c-bc1f-88be-140602f2f933"/>
+  <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine"/>
+  <access origin="*"/>
+  <preference name="KeepRunning" value="true"/>
+  <preference name="monaca:AndroidIsPackageNameSeparate" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="Orientation" value="default"/>
+  <preference name="SplashScreenDelay" value="1000"/>
+  <preference name="Fullscreen" value="false"/>
 </widget>
