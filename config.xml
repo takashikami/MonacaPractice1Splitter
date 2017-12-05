@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="com.example.helloworld" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" id="com.linkto.beaconlauncher" version="1.0.0">
   <name>Practice1 Splitter</name>
   <description>Made with Monaca (http://monaca.mobi)</description>
   <author/>
@@ -91,7 +91,6 @@
   </platform>
   <preference name="WindowsStorePublisherName" value="My Name"/>
   <preference name="WindowsStoreIdentityName" value="d0102d2d-c46c-bc1f-88be-140602f2f933"/>
-  <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine"/>
   <access origin="*"/>
   <preference name="KeepRunning" value="true"/>
   <preference name="monaca:AndroidIsPackageNameSeparate" value="false"/>
