@@ -6,7 +6,8 @@
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
   <script src="lib/onsenui/js/onsenui.min.js"></script>
-
+  <script src="js/app.js"></script>
+  
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
@@ -64,8 +65,9 @@
           Main
         </div>
       </ons-toolbar>
-        <ons-button modifier="large" onclick="window.open('https://www.google.co.jp/', '_blank', 'location=yes')">Googleサイトを表示</ons-button>
-        <ons-button modifier="large" onclick="window.open('https://www.yahoo.co.jp/', '_blank', 'location=yes')">Yahooサイトを表示</ons-button>
+      <ons-button modifier="large" onclick="window.open('https://www.google.co.jp/', '_blank', 'location=yes')">Googleサイトを表示</ons-button>
+      <ons-button modifier="large" onclick="window.open('https://www.yahoo.co.jp/', '_blank', 'location=yes')">Yahooサイトを表示</ons-button>
+      <textarea id="log" style="width:98%; height:50%;"/>
     </ons-page>
   </ons-template>
 
